@@ -1,0 +1,6 @@
+def squares(a):
+    for i in range(len(a)):
+     a[i]=a[i]**2
+a=[1,2,3,4]
+squares(a)
+print(a)
